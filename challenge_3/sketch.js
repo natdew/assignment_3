@@ -6,13 +6,17 @@ function setup() {
 }
 
 function draw() {
-	// clear the background
-	background(150, 50, 150);
+	background(129, 0, 0);
 
-	// set a fill color
-	fill(255, 255, 255);
-
-	// draw the ellipse
-	var diameter = random(100, 200);
-	ellipse(320, 180, diameter, diameter);
 }
+
+noFill();
+stroke(1)
+ellipse(mouseX, mouseY, 55, 55);
+
+
+	if (mouseIsPressed) {
+	background(53, 52, 100);
+
+} else {
+	background(129, 0, 0);
