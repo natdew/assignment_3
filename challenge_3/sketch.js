@@ -5,18 +5,9 @@ function setup() {
 	noLoop();
 }
 
-function draw() {
-	background(129, 0, 0);
-
-}
-
-noFill();
-stroke(1)
-ellipse(mouseX, mouseY, 55, 55);
-
-
-	if (mouseIsPressed) {
-	background(53, 52, 100);
-
-} else {
-	background(129, 0, 0);
+	function draw() {
+		background(0);
+		fill(255, 255, 255);
+		ellipse(mouseX, mouseY, 100, 100);
+	}
+	
