@@ -13,7 +13,7 @@ if (mouseX > ballX) {
 	ballX = ballX + 10;
 } else {
 	ballX = ballX - 10;
-
+}
 	if (mouseY > ballY) {
 		ballY = ballY + 10;
 	} else {
